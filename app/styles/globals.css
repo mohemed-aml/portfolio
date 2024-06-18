@@ -24,6 +24,19 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+span {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover\:text-gray-400:hover {
+  color: #9ca3af;
 }
 
 @layer utilities {
